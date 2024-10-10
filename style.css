@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    background-color: aquamarine;
+}
+
+.fa-laptop-code{
+    margin-left: 2%;
+    font-size: 200%;
+}
+
+.fa-bars{
+    margin-right: 5%;
+}
+
+#developer-name{
+    position: relative;
+    left: -23%;
+    font-family: "Kalam", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+#grid-container{
+    display: grid;
+    position: relative;
+}
+
+.container-lefthero{
+    position: absolute;
+    display: grid;
+    grid-area: 1/1/2/2;
+    height: 50vh;
+    width: 100vw;
+    background-color: #0000ff80;
+    z-index: 1;
+}
+
+.container-righthero{
+    position: absolute;
+    display: grid;
+    grid-area: 1/2/2/3;
+    height: 50vh;
+    width: 50vw;
+    background-color: #00800080; 
+    z-index: 2;
+}
