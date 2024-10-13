@@ -9,33 +9,38 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
-</head>
+    <link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+  </head>
+  
 <body>
-    <nav>
-      <div class="navbar">
-         <i class="fa-solid fa-laptop-code" ></i>
-         <h4 id="developer-name">Ama Nkansah</h4>
-         <i class="fa-solid fa-bars"></i>
-
-          <ul class="hamburger-menu">
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">Skills</a></li>
-            <li><a href="#">Resume</a></li>
-            <li><a href="#">About</a></li>
+    <nav class="navbar">
+      <div class="container">
+        <a class="navbar-brand brand-name" href="#">Ama.</a>
+       <ul class="navbar-nav d-flex flex-row">
+            <li class="nav-item"><a class="nav-link active pe-3 px-lg-4" aria-current="page"href="#">About</a></li>
+            <li class="nav-item"><a class="nav-link active pe-3 px-lg-4" aria-current="page" href="#">Skills</a></li>
+            <li class="nav-item"><a  class="nav-link active pe-3 px-lg-4" aria-current="page" href="#">Projects</a></li>
+            <li class="nav-item"><a  class="nav-link active px-lg-2" aria-current="page" href="#">Resume</a></li>
           </ul>
       </div>
+    </nav>
 
-
-      <div id="grid-container">
-        <div class="container-lefthero">
-    
+    <div class="hero">
+      <div class="col-12 col-sm-12 col-lg-6 p-4 ps-5" id="img-container">
+        <img src="./img/Portrait shoot.jpeg" class="d-block mx-lg-auto img-fluid rounded-pill " alt="My picture" width="200" height="100" loading="lazy">
       </div>
 
-      <div class="container-righthero">
-    
+      <div class="col-lg-6 px-3 float-end ">
+        <h1 class="display-5 fw-bold text-body-emphasis lh-1 mb-3 name-section">I'm <span id="name-highlight">Ama Nkansah</span></h1>
+        <h2>a Front-End Developer</h2>
+        <p class="lead">Passionate about transforming ideas into stunning web experiences. With a focus on design and user interaction, I create dynamic, responsive interfaces that engage users.</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+          <button type="button" class="btn btn-primary btn-lg px-4 me-md-2"> Let's Connect</button>
       </div>
     </div>
+
+    
+
       
         
         
@@ -43,25 +48,15 @@
 
 
 
-        <div>
-            <input type="checkbox"class="navbar-toggler" style="display: none;">
-
-            <label for="dropdown" class="dropdown-menu">
-                <span class="hamburger">
-                    <span class="icon-bar first-bar"></span>
-                    <span class="icon-bar middle-bar"></span>
-                    <span class="icon-bar last-bar"></span>
-                </span>
-            </label>
+        
 
 
 
-        </div>
+        
             
                 
          
-       </div>
-   </nav>
+
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
