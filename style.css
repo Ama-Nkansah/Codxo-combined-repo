@@ -7,25 +7,44 @@ body{
   background-color:rgb(242, 237, 231) ;
 }
 
-nav{
-    background-color: aquamarine;
-}
-
-
-#developer-name{
-    position: relative;
-    left: -23%;
-    font-family: "Kalam", cursive;
-    font-weight: 400;
-    font-style: normal;
-}
-
 .brand-name{
   font-family: "Nerko One", cursive;
   font-weight: 500;
   font-style: normal;
-  font-size: 25px;
+  font-size: 27px;
+  color:#3d0303;
+
 }
 
+.hero{
+  background-color:#48CFCB;
+  background-image:url(./img/coconut\ pattern.jpg);
+  background-blend-mode: overlay;
+  padding-left:50px;
+  height: 1
+}
 
+#intro-name{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+  text-transform: capitalize;
+  color:#;
+}
 
+.title{
+  color:#3d0303;
+  text-shadow: 2px #424242;
+  margin-left:80px;
+  margin-top: 5px;
+}
+
+#contact-title{
+margin-left: 120px;
+}
+
+input::after{
+  content: "*";
+  color: #3d0303;
+}
