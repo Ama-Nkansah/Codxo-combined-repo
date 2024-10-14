@@ -30,7 +30,7 @@ body{
   font-weight:bolder;
   font-style: normal;
   text-transform: capitalize;
-  color:#;
+  color:#3d0303;
 }
 
 .title{
@@ -44,7 +44,30 @@ body{
 margin-left: 120px;
 }
 
-input::after{
-  content: "*";
-  color: #3d0303;
+.send-btn{
+  background-color: #48CFCB;
+  margin-left:140px;
 }
+
+.container-socials{
+  background-color:#48CFCB;
+  background-image:url(./img/coconut\ pattern.jpg);
+  background-blend-mode: overlay;
+  padding: 10%;
+  padding-top:20%;
+  height: 140px;
+  position: relative;
+}
+
+#socials-font{
+  font-size: 30px;
+}
+
+.social-title{
+  color:#3d0303;
+  text-shadow: 2px #424242;
+  position: absolute;
+  left: 30%;
+  z-index: 1;
+}
+
