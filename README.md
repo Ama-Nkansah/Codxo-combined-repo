@@ -1,4 +1,4 @@
-# Codxo Combined Repository
+# Go2Cod Combined Repository
 
 This repository combines multiple projects into a single, unified repository. Each project reflects a key step in my journey as a developer and is part of my intentional effort to showcase growth, collaboration, and technical skills.
 
