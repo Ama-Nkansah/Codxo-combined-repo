@@ -9,10 +9,10 @@ The purpose of this repository is to:
 - Create a cohesive portfolio for future collaboration and learning.
 
 ## Projects Included
-Calculator app
-Todo-list app
-Responsive gallery
-Portfolio website
+-Calculator app
+-Todo-list app
+-Responsive gallery
+-Portfolio website
 
 ## Why This Matters
 By combining these projects, I aim to:
