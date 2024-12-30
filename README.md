@@ -10,8 +10,11 @@ The purpose of this repository is to:
 
 ## Projects Included
 -Calculator app
+
 -Todo-list app
+
 -Responsive gallery
+
 -Portfolio website
 
 ## Why This Matters
