@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-color:rgb(242, 237, 231) ;
+}
+
+.brand-name{
+  font-family: "Nerko One", cursive;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 27px;
+  color:#3d0303;
+
+}
+
+.hero{
+  background-color:#48CFCB;
+  background-image:url(./img/coconut\ pattern.jpg);
+  background-blend-mode: overlay;
+  padding-left:50px;
+  height: 1
+}
+
+#intro-name{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight:bolder;
+  font-style: normal;
+  text-transform: capitalize;
+  color:#3d0303;
+}
+
+.title{
+  color:#3d0303;
+  text-shadow: 2px #424242;
+  margin-left:80px;
+  margin-top: 5px;
+}
+
+#contact-title{
+margin-left: 120px;
+}
+
+.send-btn{
+  background-color: #48CFCB;
+  margin-left:140px;
+}
+
+.container-socials{
+  background-color:#48CFCB;
+  background-image:url(./img/coconut\ pattern.jpg);
+  background-blend-mode: overlay;
+  padding: 10%;
+  padding-top:20%;
+  height: 140px;
+  position: relative;
+}
+
+#socials-font{
+  font-size: 30px;
+}
+
+.social-title{
+  color:#3d0303;
+  text-shadow: 2px #424242;
+  position: absolute;
+  left: 30%;
+  z-index: 1;
+}
+
