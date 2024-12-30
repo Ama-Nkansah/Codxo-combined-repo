@@ -8,7 +8,7 @@ The purpose of this repository is to:
 - Highlight diverse projects demonstrating various technologies and approaches.
 - Create a cohesive portfolio for future collaboration and learning.
 
-## Projects Included# 
+## Projects Included
 Calculator app
 Todo-list app
 Responsive gallery
